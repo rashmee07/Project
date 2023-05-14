@@ -1,0 +1,81 @@
+.App{
+  background-color: #E8E8E2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.app-submit{
+  color: #E8E8E2;
+  background-color: black;
+  padding: 5px;
+  border: 0.5px solid black;
+  width:280px;
+  border-radius: 20px;
+  min-height: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.1s linear all;
+}
+.app-submit:hover{
+  color: black;
+  background-color: #E8E8E2;
+  cursor: pointer;
+}
+
+.app-container-first-div{
+  margin-bottom: 5%;
+}
+
+.non-active-second{
+  display: none;
+}
+.non-active-submit{
+  display: none;
+}
+
+.display-download-btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* histogram css*/
+
+.histogram {
+  background-color: #f0f6f5;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.histogram-label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+
+.histogram-bar {
+  fill: #3498db;
+  stroke: none;
+}
+.app-submit a{
+  color: #E8E8E2;
+}
+.app-submit a:hover{
+  color: black;
+}
