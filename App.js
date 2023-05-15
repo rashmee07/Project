@@ -65,6 +65,7 @@ function App() {
                 options={options}
                 barClassName="histogram-bar"
             />
+   #create the react app
           </div>
           <div className='display-download-btns'>
             <button className='app-submit' onClick={()=>setsub(!substart)}>Close</button>
